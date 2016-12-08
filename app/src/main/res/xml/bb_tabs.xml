@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_homepage"
+        icon="@drawable/ic_home"
+        selectIcon="@drawable/ic_home_press"
+        title="@string/tab_home"/>
+    <tab
+        id="@+id/tab_focus"
+        icon="@drawable/ic_focus"
+        selectIcon="@drawable/ic_focus_press"
+        title="@string/tab_focus"/>
+    <tab
+        id="@+id/tab_videos"
+        icon="@drawable/ic_video"
+        selectIcon="@drawable/ic_video_press"
+        title="@string/tab_video"/>
+    <tab
+        id="@+id/tab_myhome"
+        icon="@drawable/ic_myhome"
+        selectIcon="@drawable/ic_myhome_press"
+        title="@string/tab_myhome"/>
+</tabs>
