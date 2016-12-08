@@ -312,7 +312,11 @@ public class BottomBarTab extends LinearLayout {
     }
 
     public int getBadgeCount() {
-        return badge.getCount();
+        if (badge == null) {
+            return 0;
+        } else {
+            return badge.getCount();
+        }
     }
 
     public void removeBadge() {
